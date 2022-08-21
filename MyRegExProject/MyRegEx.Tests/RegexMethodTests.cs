@@ -1,5 +1,5 @@
-﻿using LearnRegEx;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RegExMethods;
 
 namespace LearningRegex.Tests;
 
@@ -13,7 +13,7 @@ public class RegexMethodTests
     [DataRow("kljandfb01l.akmnsdfv", true)]
     public void CheckFor0FollowedBy1UsingRegex_Test(string input, bool expected)
     {
-        bool actual = RegExMethods.CheckFor0FollowedBy1UsingRegex(input);
+        bool actual = RegularExpressionMethods.CheckFor0FollowedBy1UsingRegex(input);
         Assert.AreEqual(expected, actual);
     }
     
@@ -25,7 +25,7 @@ public class RegexMethodTests
     [DataRow("kl¤andfb01l.akmnsd(", true)]
     public void CheckFor3SymbolsUsingRegex_Test(string input, bool expected)
     {
-        bool actual = RegExMethods.CheckFor3SymbolsUsingRegex(input);
+        bool actual = RegularExpressionMethods.CheckFor3SymbolsUsingRegex(input);
         Assert.AreEqual(expected, actual);
     }
     
@@ -37,7 +37,7 @@ public class RegexMethodTests
     [DataRow("0000111", false)]
     public void CheckIfOddNumberOf0sAnd1sUsingRegex_Test(string input, bool expected)
     {
-        bool actual = RegExMethods.CheckIfOddNumberOf0sAnd1sUsingRegex(input);
+        bool actual = RegularExpressionMethods.CheckIfOddNumberOf0sAnd1sUsingRegex(input);
         Assert.AreEqual(expected, actual);
     }
 }

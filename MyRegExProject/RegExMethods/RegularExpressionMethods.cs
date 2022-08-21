@@ -1,6 +1,6 @@
-﻿namespace LearnRegEx;
+﻿namespace RegExMethods;
 
-public class RegExMethods
+public class RegularExpressionMethods
 {
     public static bool CheckFor0FollowedBy1UsingRegex(string input)
         => System.Text.RegularExpressions.Regex.IsMatch(input, "01");

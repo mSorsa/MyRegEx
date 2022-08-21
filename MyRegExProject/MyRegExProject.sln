@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRegEx.Tests", "MyRegEx.Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnRegEx", "LearnRegEx\LearnRegEx.csproj", "{4363E793-A13C-4D42-BD0C-3B056D612264}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegExMethods", "RegExMethods\RegExMethods.csproj", "{48E63F55-C04D-4865-84C0-689048388C6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4363E793-A13C-4D42-BD0C-3B056D612264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4363E793-A13C-4D42-BD0C-3B056D612264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4363E793-A13C-4D42-BD0C-3B056D612264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E63F55-C04D-4865-84C0-689048388C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E63F55-C04D-4865-84C0-689048388C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E63F55-C04D-4865-84C0-689048388C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E63F55-C04D-4865-84C0-689048388C6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
