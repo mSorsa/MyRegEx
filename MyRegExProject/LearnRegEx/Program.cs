@@ -23,7 +23,7 @@ public class Program
         Console.WriteLine("Write a string to check if there are odd number of 0s and 1s: ");
         input = Console.ReadLine();
 
-        Console.WriteLine(RegExMethods.CheckIfOddNumberOf0sAnd1s(input));
+        Console.WriteLine(RegExMethods.CheckIfOddNumberOf0sAnd1sUsingRegex(input));
         Console.ReadKey();
     }
 }

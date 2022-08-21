@@ -35,9 +35,9 @@ public class RegexMethodTests
     [DataRow("0*)(&/1", true)]
     [DataRow("kljandfb0-1l.akmnsdfv", true)]
     [DataRow("0000111", false)]
-    public void CheckIfOddNumberOf0sAnd1sTest(string input, bool expected)
+    public void CheckIfOddNumberOf0sAnd1sUsingRegex_Test(string input, bool expected)
     {
-        bool actual = RegExMethods.CheckIfOddNumberOf0sAnd1s(input);
+        bool actual = RegExMethods.CheckIfOddNumberOf0sAnd1sUsingRegex(input);
         Assert.AreEqual(expected, actual);
     }
 }
