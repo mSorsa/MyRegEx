@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LearnRegEx\LearnRegEx.csproj" />
+    <ProjectReference Include="..\..\..\..\..\OneDrive\Skrivbord\LearnRegEx\LearnRegEx.csproj" />
   </ItemGroup>
 
 </Project>
